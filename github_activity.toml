@@ -1,0 +1,5 @@
+# Github Activity Config
+
+[api]
+github_base_url = "https://api.github.com/users/"
+github_activity_path = "/events"

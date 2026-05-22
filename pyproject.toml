@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-activity"
+version = "0.1.0"
+description = "A custom CLI tool called github-activity"
+dependencies = []  # Add third-party libraries like 'click' or 'typer' here if you use them
+
+[project.scripts]
+github-activity = "github_activity.app:main"

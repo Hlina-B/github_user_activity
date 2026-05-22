@@ -26,6 +26,9 @@ Before installing, ensure you have a `github_activity.toml` configuration file i
 github_base_url = "https://api.github.com/users/"
 github_activity_path = "/events"
 
+Installation
+pip install -e .
+
 Note: Default github_activity.toml is provided.
 
 Project URL: https://roadmap.sh/projects/github-user-activity

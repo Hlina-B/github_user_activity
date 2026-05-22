@@ -9,7 +9,7 @@ def fetch_data(url: str, token: str = None):
     request = urllib.request.Request(url)
     request.add_header("Accept", "application/json")
 
-    if not token is None and isinstance(token, str):
+    if isinstance(token, str):
         request.add_header("Authorization", f"Bearer {token}")
     
     try:

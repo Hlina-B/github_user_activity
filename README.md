@@ -25,10 +25,20 @@ Before installing, ensure you have a `github_activity.toml` configuration file i
 [api]
 github_base_url = "https://api.github.com/users/"
 github_activity_path = "/events"
-
-Installation
-pip install -e .
-
 Note: Default github_activity.toml is provided.
 
+Local Global Installation
+Navigate to your project root directory (github_activity/) and install the application natively in "Editable" mode using pip:
+pip install -e .
+
+Note: Make sure you have a valid pyproject.toml file configured with a [project.scripts] entry pointing to app:main to run the shortcut command locally. you can use the default.
+
+Usage
+Once installed, you can invoke the CLI application natively from any directory on your operating system:
+github-activity <username>
+
+Example: github-activity octocat
+
+
 Project URL: https://roadmap.sh/projects/github-user-activity
+
